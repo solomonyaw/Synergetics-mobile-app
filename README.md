@@ -19,7 +19,7 @@ This application dubbed "Synergetics App" is a cross platform mobile application
 
 
 
-![alt text](Synergetics1.PNG "Description goes here")
-![alt text](Synergetics2.PNG "Description goes here")
-![alt text](Synergetics3.PNG "Description goes here")
-![alt text](Synergetics4.PNG "Description goes here")
+![alt text](synergetics1.PNG "Description goes here")
+![alt text](synergetics2.PNG "Description goes here")
+![alt text](synergetics3.PNG "Description goes here")
+![alt text](synergetics4.PNG "Description goes here")
