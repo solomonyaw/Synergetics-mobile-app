@@ -14,7 +14,7 @@ and design and therefore has applications in all areas of human endeavor.
 "Synergetics, in the broadest terms, is the study of spatial complexity, and as such is an inherently comprehensive discipline. ... Experience with synergetics encourages a new way of approaching and solving problems. Its emphasis on visual and spatial phenomena combined with Fuller's holistic approach fosters the kind of lateral thinking which so often leads to creative breakthroughs."
 
 
-This application dubbed "Synergetics App" is a cross platform mobile application deployed in on android, IOS and Windows Operating systems. 
+This application dubbed "Synergetics App" is a cross platform mobile application deployed on android, IOS and Windows Operating systems. 
 
 
 
