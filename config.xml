@@ -14,7 +14,7 @@
 </platform>
 <platform name="windows" >
 </platform>
-<preference name="phonegap-version" value="cli-5.2.0" />
+<preference name="phonegap-version" value="cli-6.0.0" />
 <preference name="xwalkMultipleApk" value="false" />
 <plugin name="cordova-plugin-crosswalk-webview"/>
 <plugin name="cordova-plugin-whitelist" spec="1.2.2"/>
