@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "webapp/template-blank-ad-project/sample.zip",
       "projectGuid": "3a3c52cb-0f07-44a6-8d19-f8d942316cd5",
-      "lastModifiedDate": 1511114796971,
+      "lastModifiedDate": 1511121132359,
       "creationDate": 1511114795369
     },
     "sourceDirectory": "www",
@@ -34,7 +34,7 @@
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
         "appName_": "Synergetics",
-        "appID_": "xdk.intel.template",
+        "appID_": "xdk.intel.template123",
         "appAccess_": {
           "mode": "whitelist",
           "network": [
@@ -51,8 +51,23 @@
           ],
           "navigation": []
         },
-        "icons_": [],
-        "splashes_": [],
+        "icons_": [
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/logo.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/logo1.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          }
+        ],
         "addlPermissions_": "ACCESS_COARSE_LOCATION;ACCESS_FINE_LOCATION",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
