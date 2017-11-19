@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Blank Standard HTML5 Web App Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Synergetics</title>
+<center>
+
+    <!--	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.3.2.min.css">-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/grid-listview.css">
+    <link rel="stylesheet" href="css/autodividers-linkbar.css" >
+
+
+ </center>
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, and is needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+    </style>
+
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+    <center>
+<body>
+  <h2 style="background-color:BROWN;color:white; border-radius:10px; font-size:40px;">The Synergetics App</h2>
+  <ul data-role="listview"  data-inset="true">
+    <li ><a href="Synergetics.html"><p style="font-size:15px; font-weight:bold;">Read Synergetics - By Buckminster Fuller</p> </a></li>
+     <li><a href-"#"><p style="font-size:15px; font-weight:bold;">Biography of Buckminster Fuller</p></a></li>  
+      <li><a href="#"><p style="font-size:15px; font-weight:bold;">Buckminster Fullers's inventions</p></a></li>
+  </ul>
+      <a href="Synergetics.html"><img src="img/synergetics.jpg" width="400"height="550"/></a>
+    </div>
+ 
+           <div id="m_display"> </div>
+          <div id="c_display"> </div>
+        </div>
+    <!-- /content --> 
+    
+  </div>
+      <!-- /page --><footer id="footer"style="background-color:orange; color:white;">
+<p>Synergetics App is powered by <a href="http://facebook/TrinaryCompanyLimited">Trinary Company Limited</a> in Colaboration with <a href="http://bfi.org">The Buckminster Fuller Institute</a></p></footer >
+<script type="text/javascript" src="cordova.js"></script>
+   <script type="text/javascript" src="webintent.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.mobile-1.3.2.min.js"></script>
+  <script src="js/commonfunctions.js"></script>
+
+ 
+ </center>
+</body>
+</html>
